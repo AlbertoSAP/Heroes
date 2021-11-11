@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { AuthContext } from './Auth/AuthContex'
 import { authReduce } from './Auth/authReduce'
 import { AppRouter } from './Routes/AppRouter'
+import './index.css'
 
 const init = () =>{
     return JSON.parse(localStorage.getItem('user')) || {

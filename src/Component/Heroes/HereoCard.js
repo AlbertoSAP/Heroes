@@ -9,7 +9,8 @@ export const HereoCard = ({
   alter_ego,
   first_appearance,
   characters,
-}) => {
+}
+) => {
     return (
         <div className="container">
       <div className="card mt-2 shadow-lg card-circle" style={{boderRadius: 10 }} >
@@ -27,7 +28,7 @@ export const HereoCard = ({
              <label>{characters}</label> */}
              </div>
              <div className="card-footer text-center">        
-        <Link to={`/hero/${id}`} className="btn btn-outline-success card-circle">Ver Mas</Link>
+        <Link to={`/hero/${id}`} className="btn btn-outline-success button-circle">Ver Mas</Link>
              </div>
       </div>
     </div>

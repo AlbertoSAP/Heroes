@@ -14,7 +14,7 @@ export const HeroeList = ({publisher}) => {
                 lisheroe.map(
                     h =>(
                         <div key={h.id} className="col-md-3">
-                        <HereoCard  key={h.id} {...h} />
+                        <HereoCard key={h.id} {...h} />
                         </div>
                     )
                 )
