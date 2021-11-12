@@ -8,7 +8,7 @@ export const HeroeList = ({publisher}) => {
     const lisheroe = useMemo(() => getHeroByPublisher(publisher), [publisher]);
     // const lisheroe = getHeroByPublisher(publisher);
 
-    return (
+    return (<div className="pb-5 mb-5" > 
         <div className="row">
             {
                 lisheroe.map(
@@ -20,5 +20,5 @@ export const HeroeList = ({publisher}) => {
                 )
             }
         </div>
-    )
+        </div>)
 }

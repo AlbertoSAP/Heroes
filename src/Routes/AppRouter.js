@@ -14,7 +14,7 @@ console.log(user);
     <Router>
       <div>
         <Routes>
-        <Route path="/Login" element={<LoginScreen />} />
+        <Route path="/login" element={<LoginScreen />} />
        <Route path="*" element={ 
        user.logged ?
        <DashboardRouter />

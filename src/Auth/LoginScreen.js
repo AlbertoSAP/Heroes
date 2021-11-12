@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { useForm } from "../Component/Hooks/useForm";
+import { useForm } from "../Components/Hooks/useForm";
 import { type } from "../type/type";
 import { AuthContext } from "./AuthContex";
 
@@ -29,7 +29,7 @@ export const LoginScreen = () => {
           password
         }  
       })
-      navigate('/Marvel');
+      navigate('/');
     }else{
      Swal.fire('Error',`Por favor complete el formulario `,'error')
     }

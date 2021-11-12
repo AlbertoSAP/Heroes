@@ -20,7 +20,7 @@ background: url('https://images.thedirect.com/media/article_full/dcmarvel_WBAhVL
 background-position: center;
 background-size:cover;
 background-repeat: no-repeat;
-height:33rem;
+height: 100vh;
 }
 
 
@@ -37,3 +37,16 @@ text-shadow:  0 1px 0 #d7d7d7, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #161515, 0
 .hit-the-floor {
   text-align: center;
 }
+
+.flexo{
+display: flex;
+}
+
+.padre {
+text-align: center;
+}
+
+.hijo {
+  line-height: 350px; 
+}
+
